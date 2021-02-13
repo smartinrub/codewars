@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 public class ParserTest {
     @Test
     public void fixedTests() {
-//        assertEquals(1 , Parser.parseInt("one"));
-//        assertEquals(20 , Parser.parseInt("twenty"));
-//        assertEquals(246 , Parser.parseInt("two hundred forty-six"));
+        assertEquals(1 , Parser.parseInt("one"));
+        assertEquals(20 , Parser.parseInt("twenty"));
+        assertEquals(246 , Parser.parseInt("two hundred forty-six"));
         assertEquals(26754 , Parser.parseInt("twenty-six thousand seven hundred and fifty-four"));
         assertEquals(101 , Parser.parseInt("one hundred one"));
         assertEquals(100 , Parser.parseInt("one hundred"));
